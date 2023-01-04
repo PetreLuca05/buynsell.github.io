@@ -14,7 +14,7 @@
 }
 
 .nav-bar nav{
-    width: 90%;
+    width: 98%;
     height: 90%;
     xbackground: rgba(255, 0, 0, 0.1);
 
@@ -65,4 +65,27 @@
 }
 
 .nav-bar i:nth-child(3){
+}
+
+@media (max-width: 2200px){
+    
+}
+
+@media (max-width: 1480px){
+	.nav-bar nav{
+        width: 90%;
+        gap: 0px;
+    }
+}
+
+@media (max-width: 1100px){
+    
+}
+
+@media (max-width: 920px){
+	
+}
+
+@media (max-width: 840px){
+	
 }
