@@ -1,0 +1,110 @@
+
+.search-panel{
+    width: 100vw;
+    height: 400px;
+
+    padding-top: 60px;
+
+}
+
+.search-panel div{
+    width: 100%;
+    height: 100%;
+
+    background-image: linear-gradient(rgb(116, 66, 255),transparent);
+
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 15px;
+}
+
+.search{
+    background-color: rgba(255,255,255, .1);
+
+    width: 90%;
+    height: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 5px;
+}
+
+.search input{
+    background: transparent;
+    height: 80%;
+    width: 275px;
+    padding-left: 25px;
+}
+
+.search input::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+}
+
+.search i{
+    color: white;
+    font-size: 20px;
+    padding-right: 25px;
+}
+
+.settings-panel{
+    align-self: flex-start;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.settings-panel ul{
+    width: 150px;
+    height: 40px;
+
+    background-color: rgba(255,255,255, .1);
+
+    align-self: flex-start;
+    border-radius: 5px;
+
+    display: flex;
+    list-style: none;
+}
+
+.settings-panel li{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+#selected{
+    background-color: rgba(255, 255, 255, 1);
+}
+
+#selected i{
+    color: rgb(116, 66, 255);
+}
+
+.settings-panel h1{
+    color: rgba(255, 255, 255, 0.726);
+    text-align: left;
+    align-self: flex-start;
+    padding-left: 0px;
+}
+
+.settings-panel li i{
+    font-size: 20px;
+    color: white;
+}
